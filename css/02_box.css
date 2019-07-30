@@ -1,0 +1,38 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+}
+
+/* class 여러 개를 타겟으로 할 때 사용하여 .로 구별합니다. */
+.margin {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.border {
+    /* border-width: 5px;
+    border-color: lightskyblue;
+    border-style: dotted; */
+    border: 5px lightblue dotted;
+}
+
+.margin1 {
+    margin: 5px; /* 모든 방향으로 들어갑니다. */
+}
+.margin2 {
+    margin: 5px 10px; /* 상하, 좌우 순서로 들어갑니다. */
+}
+.margin3 {
+    margin: 5px 10px 15px; /* 상, 좌우, 하 순서로 들어갑니다. */
+}
+.margin4 {
+    margin: 5px 10px 15px 20px; /* 상, 우, 하, 좌 순서로 들어갑니다. */
+}

@@ -11,12 +11,15 @@
     <h1>서브웨이 주문하기 프로젝트</h1>
     <p>주문서를 작성해주세요.</p>
     <form action="">
-        <!-- placeholder는 아무 입력이 없을 때 기본 입력을 지정합니다. -->
-        <label for="name">이름:</label>
-        <input id="name" type="text" name="name" placeholder="이름을 입력해주세요.">
-
-        <label for="date">날짜:</label>
-        <input id="date" type="date" name="date" value="2019-07-29">
+        <div>
+            <!-- placeholder는 아무 입력이 없을 때 기본 입력을 지정합니다. -->
+            <label for="name">이름:</label>
+            <input id="name" type="text" name="name" placeholder="이름을 입력해주세요.">
+        </div>
+        <div>
+            <label for="date">날짜:</label>
+            <input id="date" type="date" name="date" value="2019-07-29">
+        </div>
 
         <!-- label의 이름과 input의 id가 동일하면 이름을 클릭해도 자동으로 입력을 받아들입니다. -->
         <!-- form을 제출하면 name=value로 검색이 동작하게 되어 주소창에서 이를 확인할 수 있습니다. -->
@@ -27,8 +30,10 @@
         <hr>
 
         <!-- step을 지정하면 특정 값 단위로 선택할 수 있습니다. -->
+        <!-- number type은 placeholder가 없으므로 value로 지정합니다. -->
+        <!-- 단, value는 값을 미리 지정한 것으로 placeholder와 다릅니다. -->
         <h3>2. 사이즈 선택</h3>
-        <input type="number" min="15" max="30" step="15">
+        <input type="size" value="15" min="15" max="30" step="15">
         <hr>
 
         <!-- dropdown 검색옵션은 select를 이용해서 확인할 수 있습니다. -->
@@ -42,11 +47,11 @@
         <hr>
 
         <h3>4. 야채/소스</h3>
-        <input id="vegi1" type="checkbox" name="vegi" value="1"><label for="vegi1">토마토</label>
-        <input id="vegi2" type="checkbox" name="vegi" value="2"><label for="vegi2">오이</label>
-        <input id="vegi3" type="checkbox" name="vegi" value="3"><label for="vegi3">할라피뇨</label>
-        <input id="vegi4" type="checkbox" name="vegi" value="4"><label for="vegi4">핫 칠리</label>
-        <input id="vegi5" type="checkbox" name="vegi" value="5"><label for="vegi5">바베큐</label>
+        <input id="tomato" type="checkbox" name="tomato" value="True"><label for="tomato">토마토</label>
+        <input id="cucumber" type="checkbox" name="cucumber" value="True"><label for="cucumber">오이</label>
+        <input id="halapino" type="checkbox" name="halapino" value="True"><label for="halapino">할라피뇨</label>
+        <input id="hotchili" type="checkbox" name="hotchili" value="True"><label for="hotchili">핫 칠리</label>
+        <input id="barbeque" type="checkbox" name="barbeque" value="True"><label for="barbeque">바베큐</label>
 
         <input type="submit">
     </form>

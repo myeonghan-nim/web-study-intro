@@ -1,0 +1,50 @@
+div {
+    height: 100px;
+    width: 100px;
+}
+
+/* position은 적지않으면 static이 기본입니다. */
+.gold {
+    background-color: gold;
+    position: static;
+}
+
+/* relative는 static(처음 위치)을 기준으로 움직입니다. */
+.silver {
+    background-color: silver;
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+}
+
+/* absolute는 클래스의 부모 혹은 그 조상 요소를 기준으로 움직입니다. */
+.green {
+    background-color: greenyellow;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+/* 하지만 결과를 보면 css is AWESOME!!!임을 알 수 있습니다 ^^7 */
+
+/* 부모 요소에게 relative를 넣으면 자식 요소가 그를 기준으로 움직입니다. */
+.parent {
+    height: 200px;
+    width: 100%;
+    background-color: paleturquoise;
+    position: relative;
+}
+
+.child {
+    background-color: palevioletred;
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+}
+
+/* fixed는 브라우저의 뷰 포인트를 기준으로 움직입니다. */
+.yellow {
+    background-color: yellowgreen;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
