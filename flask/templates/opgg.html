@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block head %}
+  <style>
+    body {
+      background-color: #5383e8;
+    }
+  </style>
+{% endblock %}
+
+{% block body %}
+  <div>
+  <!-- op.gg image -->
+  <div class="d-flex justify-content-center mt-5">
+    <img src="https://attach.s.op.gg/logo/20190730135214.bb87673d92d8dff6a5de5c104187e4b4.png" class="img-fluid" alt="Responsive image">
+  </div>
+  <!-- summoner search -->
+  <form action="/search" class="form-inline d-flex justify-content-center mt-5">
+    <div class="form-group mx-3">
+      <label for="summoner"></label>
+      <input type="text" class="form-control" id="summoner" placeholder="소환사명, 소환사명, ..." name="summoner">
+    </div>
+    <button type="submit" class="btn btn-primary">.GG</button>
+  </form>
+  </div>
+{% endblock%}
