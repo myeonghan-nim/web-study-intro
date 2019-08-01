@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block body %}
+  <h1>새로운 제품을 입력해주세요.</h1>
+  <form action="/create">
+    <div class="form-group">
+      <label for="product">제품명</label>
+      <input type="text" class="form-control" id="product" name="product" placeholder="제품을 입력해주세요.">
+    </div>
+    <div class="form-group">
+      <label for="category">카테고리</label>
+      <input type="text" class="form-control" id="category" name="category">
+    </div>
+    <div class="form-group">
+      <label for="replace">대체상품</label>
+      <input type="text" class="form-control" id="replace" name="replace" placeholder="제품을 입력해주세요.">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+{% endblock %}

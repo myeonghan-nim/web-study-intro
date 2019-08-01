@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+<!-- html에 python 문법이 들어간 경우 주석은 -->
+<!-- {# {{codes}} #} -->
+<!-- 입니다. -->
+{% block body %}
+  <h1>일제 상품 리스트입니다.</h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">제품명</th>
+        <th scope="col">대체상품</th>
+        <th scope="col">카테고리</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for product in products %}
+      <tr>
+        <th scope="row">1</th>
+        <td>{{product[0]}}</td>
+        <td>{{product[2]}}</td>
+        <td>{{product[1]}}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}

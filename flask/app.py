@@ -1,3 +1,4 @@
+import csv
 import random
 import requests
 from bs4 import BeautifulSoup
@@ -40,6 +41,39 @@ def search():
     soup = BeautifulSoup(res, 'html.parser')
     tier = soup.select_one('#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.SideContent > div.TierBox.Box > div > div.TierRankInfo > div.TierRank').text
     return render_template('search.html', tier=tier, summoner=summoner)
+
+@app.route('/nono')
+def nono():
+
+    with open('data.csv', 'r', encoding='utf-8', newline='') as f:
+        reader = list(csv.reader(f))
+
+    return render_template('nono.html', products=reader)
+
+@app.route('/new')
+def new():
+    return render_template('new.html')
+
+@app.route('/create')
+def create():
+    product = request.args.get('product')
+    category = request.args.get('category')
+    replace = request.args.get('replace')
+
+    with open('data.csv', 'a+', encoding='utf-8', newline='') as f:
+        writer = csv.writer(f)
+        product_info = [product, category, replace]
+        writer.writerow(product_info)
+
+    return render_template('create.html')
+
+@app.route('/card')
+def card():
+
+    with open('data.csv', 'r', encoding='utf-8', newline='') as f:
+        reader = list(csv.reader(f))
+
+    return render_template('card.html', products=reader)
 
 if __name__== '__main__':
     app.run(debug=True)
