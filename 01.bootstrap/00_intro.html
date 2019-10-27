@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!-- bootstrap의 css 태그, 항상 여기에 붙여줍니다. -->
+  <!-- html 태그와 적용된 모습이 조금 다릅니다. -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+  <!-- margin 태그는 0 ~ 5까지입니다.(음수는 앞에 n을 붙여서 적용합니다.) -->
+  <!-- bootstrap은 반응형으로 디바이스에 따라 변할 수 있도록 적용됩니다. -->
+  <div class="container">
+    <h1 class="mx-auto d-inline" style="width:50%">from now bootstrap</h1>
+    <!-- 반응형 클래스를 지정해 화면 크기에 따라 보이는 요소를 바꿀 수 있습니다. -->
+    <h1 class="mx-auto d-sm-none" style="width:50%">from now bootstrap</h1>
+    <!-- bg(배경색), text(글자색), alert(상대적 변환) 등의 코드는 색상과 관련된 코드입니다. -->
+    <h1 class="mx-auto bg-info alert-info">bootstrap test</h1>
+    <!-- btn코드는 버튼임을 먼저 선언한 뒤 버튼의 색상을 바꿀 수 있습니다. -->
+    <a href="https://naver.com" class="d-block btn btn-danger">naver</a>
+    <a href="https://naver.com" class="btn btn-danger fixed-bottom">naver</a>
+    <!-- text align은 해당 텍스트만 이동시키는 명령어입니다. -->
+    <div class="my-3 text-center"><h1 class="font-italic">google</h1></div>
+  </div>
+  <!-- 기타 코드는 bootstrap을 찾아보며 활용할 수 있습니다. -->
+
+  <!-- bootstrap의 js 태그, 항상 여기에 붙여줍니다. -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
