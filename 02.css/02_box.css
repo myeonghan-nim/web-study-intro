@@ -25,14 +25,21 @@ div {
 }
 
 .margin1 {
-    margin: 5px; /* 모든 방향으로 들어갑니다. */
+    /* 모든 방향으로 들어갑니다. */
+    margin: 5px;
 }
+
 .margin2 {
-    margin: 5px 10px; /* 상하, 좌우 순서로 들어갑니다. */
+    /* 상하, 좌우 순서로 들어갑니다. */
+    margin: 5px 10px;
 }
+
 .margin3 {
-    margin: 5px 10px 15px; /* 상, 좌우, 하 순서로 들어갑니다. */
+    /* 상, 좌우, 하 순서로 들어갑니다. */
+    margin: 5px 10px 15px;
 }
+
 .margin4 {
-    margin: 5px 10px 15px 20px; /* 상, 우, 하, 좌 순서로 들어갑니다. */
+    /* 상, 우, 하, 좌 순서로 들어갑니다. */
+    margin: 5px 10px 15px 20px;
 }

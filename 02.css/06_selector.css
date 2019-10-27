@@ -8,9 +8,9 @@
  것은 더 아래 단계가 무시됩니다. */
 /* tag selector */
 h1 {
+    /* 단, !important가 붙어있다면 해당 항목은 최우선으로 적용됩니다. */
     color: brown !important;
 }
-/* 단, 위와 같이 !important가 붙어있다면 해당 항목은 최우선으로 적용됩니다. */
 
 /* group을 설정할 수 있습니다. */
 h1, h2 {

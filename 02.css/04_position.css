@@ -18,13 +18,13 @@ div {
 }
 
 /* absolute는 클래스의 부모 혹은 그 조상 요소를 기준으로 움직입니다. */
+/* 하지만 결과를 보면 css is AWESOME!!!임을 알 수 있습니다 ^^7 */
 .green {
     background-color: greenyellow;
     position: absolute;
     right: 0px;
     bottom: 0px;
 }
-/* 하지만 결과를 보면 css is AWESOME!!!임을 알 수 있습니다 ^^7 */
 
 /* 부모 요소에게 relative를 넣으면 자식 요소가 그를 기준으로 움직입니다. */
 .parent {

@@ -1,9 +1,8 @@
-p {
-    color: greenyellow;
-    font-size: 25px;
-}
-
 /* CSS의 단위 */
 /* CSS코드 순서대로 태그 이름, 프로퍼티, 값 순서입니다. */
 /* 값은 주로 키워드, 크기 단위, 색 등이 존재합니다. */
 /* 개발자 도구를 활용해서 해당 태그에 적용된 CSS 상황을 확인할 수 있습니다. */
+p {
+    color: greenyellow;
+    font-size: 25px;
+}

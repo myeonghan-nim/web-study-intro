@@ -1,5 +1,5 @@
 /* display의 block 요소 */
-/* margin은 margin-right: auto가 기본 */
+/* margin은 margin-right: auto가 기본입니다. */
 div {
     background-color: cornsilk;
     margin-left: auto;
@@ -23,7 +23,8 @@ div {
 
 /* display의 inline-block 요소 */
 .bi {
-    display: inline-block; /* None을 사용하면 아예 보이지 않게 할 수 있습니다. */
+    /* None을 사용하면 아예 보이지 않게 할 수 있습니다. */
+    display: inline-block;
     margin-top: 10px;
 }
 
