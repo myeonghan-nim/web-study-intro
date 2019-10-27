@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h1>프로그래밍 교육</h1>
+  <!-- 일렬로 출력되는 경우를 인라인이라고 합니다. -->
+  <!-- a는 id를 지정해 특정 위치로 보낼 수 있습니다. -->
+  <a href="#python">파이썬</a>
+  <a href="#web">웹</a>
+  <!-- a는 로컬 파일로 이동할 수 있습니다. -->
+  <a href="01_intro.html">참고사이트</a>
+
+  <hr>
+  <h2 id="python">
+    <a href="https://docs.python.org/ko/3/tutorial/index.html" target="_blank">
+      <!-- img 경로는 인터넷 혹은 로컬 폴더 주소 모두 가능합니다. -->
+      <img src="images/python-logo.png" alt="파이썬" height="50px" witdh="50px">
+    </a>
+  </h2>
+  <h3>Number Type</h3>
+
+  <!-- 텍스트를 작성하기 위해서 p태그를 붙여 본문임을 표시해야 합니다. -->
+  <p>파이썬에서 숫자형은 아래와 같이 있다.</p>
+  <ol>
+    <li>int</li>
+    <li>float</li>
+    <li>complex</li>
+    <!-- 원하는 범위에 취소선을 긋습니다. -->
+    <li><del>str</del></li>
+  </ol>
+
+  <h3>Sequence</h3>
+  <!-- p태그는 해당 텍스트를 블락 처리해 구별합니다. -->
+  <p>파이썬에서 시퀀스는 아래와 같이 있다.</p>
+  <p><b>시퀀스는 for문을 돌릴 수 있다!!!</b></p>
+  <ol>
+    <li>str</li>
+    <li>list</li>
+    <li>tuple</li>
+    <li>range</li>
+  </ol>
+
+  <hr>
+  <h2 id="web">
+    <!-- 클릭 시 창의 동작 태그는 지정하지 않을 경우 (_self)가 기본입니다. -->
+    <a href="https://developer.mozilla.org/ko/" target="_self">
+      <img src="images/html5.jpg" alt="웹" height="50px" width="60px">
+    </a>
+  </h2>
+
+  <h3>기초</h3>
+  <ul>
+    <li style="list-style: circle">HTML</li>
+    <li style="list-style: circle">CSS</li>
+  </ul>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/_59lUc31Cic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+  <!-- table은 HTML 5에서 미지원 하는 코드도 있으므로 주의 -->
+  <table border="1">
+    <thead>
+      <th></th>
+      <th>Mon</th>
+      <th>Tue</th>
+      <th>Wed</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Course A</td>
+        <!-- span으로 밀어낸 칸은 옆으로 이동합니다. -->
+        <td rowspan="2">짬뽕</td>
+        <td colspan="2">초밥</td>
+      </tr>
+      <tr>
+        <td>Course B</td>
+        <td>김치찌개</td>
+        <td>삼계탕</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table>
+    <thead>
+      <th>TIME</th>
+      <th>INDOOR</th>
+      <th colspan="2">OUTDOOR</th>
+    </thead>
+    <tbody>
+      <tr>
+        <!-- td syle의 순서는 두께, 선의 종류, 색상입니다. -->
+        <td style="border: 1px solid black"></td>
+        <td style="border: 1px solid black">소극장</td>
+        <td style="border: 1px solid black">잔디마당</td>
+        <td style="border: 1px solid black">대공연장</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black">10:00</td>
+        <td rowspan="2" style="border: 1px solid black">안녕하신가영</td>
+        <td style="border: 1px solid black"></td>
+        <td style="border: 1px solid black">10CM</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black">13:00</td>
+        <td rowspan="2" style="border: 1px solid black">선우정아</td>
+        <td rowspan="2" style="border: 1px solid black">참깨와 솜사탕</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black">15:00</td>
+        <td style="border: 1px solid black"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black">17:00</td>
+        <td style="border: 1px solid black">크러쉬</td>
+        <td style="border: 1px solid black"></td>
+        <td style="border: 1px solid black">폴킴</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
