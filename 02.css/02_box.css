@@ -4,7 +4,7 @@ div {
     background-color: hotpink;
 }
 
-/* class 여러 개를 타겟으로 할 때 사용하여 .로 구별합니다. */
+/* class */
 .margin {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -18,28 +18,25 @@ div {
 }
 
 .border {
-    /* border-width: 5px;
-    border-color: lightskyblue;
-    border-style: dotted; */
     border: 5px lightblue dotted;
 }
 
 .margin1 {
-    /* 모든 방향으로 들어갑니다. */
+    /* all direction */
     margin: 5px;
 }
 
 .margin2 {
-    /* 상하, 좌우 순서로 들어갑니다. */
+    /* top-bottom, left-right */
     margin: 5px 10px;
 }
 
 .margin3 {
-    /* 상, 좌우, 하 순서로 들어갑니다. */
+    /* top, left-right, bottom */
     margin: 5px 10px 15px;
 }
 
 .margin4 {
-    /* 상, 우, 하, 좌 순서로 들어갑니다. */
+    /* top, right, bottom, left */
     margin: 5px 10px 15px 20px;
 }

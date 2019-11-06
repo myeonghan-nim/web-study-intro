@@ -1,5 +1,5 @@
-/* display의 block 요소 */
-/* margin은 margin-right: auto가 기본입니다. */
+/* block of display */
+/* basic margin is margin-right: auto. */
 div {
     background-color: cornsilk;
     margin-left: auto;
@@ -15,27 +15,25 @@ div {
     background-color: violet;
 }
 
-/* display의 inline 요소 */
+/* inline of display */
 .i {
     display: inline;
     background-color: mediumaquamarine;
 }
 
-/* display의 inline-block 요소 */
+/* inline-block of display */
 .bi {
-    /* None을 사용하면 아예 보이지 않게 할 수 있습니다. */
+    /* None can make invisible of target. */
     display: inline-block;
     margin-top: 10px;
 }
 
-/* display에서 None은 말 그대로 데이터를 삭제하고
-hidden은 데이터는 존재하되 보이지만 않게 숨깁니다. */
+/* display None delete data, hidden make invisible data. */
 .bg {
     background-image: url(https://tumblbug-pci.imgix.net/e785822460432127b6dc38142c0c090600e77ebd/2d8ede4f1142262028afaeae2d139a4a51f8d9a0/0162da9dd277e8b4cfc29301880325954685068c/2c32761c-a423-4c6d-a925-42f0f5c0dbf9.jpg?ixlib=rb-1.1.0&w=1240&h=930&auto=format%2Ccompress&lossless=true&fit=crop&s=9a74139c45961234b70319992d18071e);
 }
 
-/* 텍스트의 폰트는 구글 폰트에서 폰트를 선택한 뒤
-상단의 코드는 html 코드에, 하단의 코드는 CSS를 사용해서 작성합니다. */
+/* font can get on Google fonts. */
 .text {
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 1.5rem;

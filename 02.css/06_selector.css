@@ -1,18 +1,14 @@
-/* *은 모든 엘리먼트를 의미합니다. */
-/* * {
-    color: rebeccapurple;
-} */
+/* * means all element */
 
-/* tag들은 각각 적용되는 우선 순위가 있습니다. */
-/* id > class > tag 순서로 적용되며 중복되는
- 것은 더 아래 단계가 무시됩니다. */
+/* tags has its own priority.(id > class > tag) */
+
 /* tag selector */
 h1 {
-    /* 단, !important가 붙어있다면 해당 항목은 최우선으로 적용됩니다. */
-    color: brown !important;
+    /* !important is in element, it has the first priority. */
+    color: yellowgreen !important;
 }
 
-/* group을 설정할 수 있습니다. */
+/* groupping */
 h1, h2 {
     background-color: turquoise;
 }
@@ -27,18 +23,17 @@ h1, h2 {
     color: gold;
 }
 
-/* tag의 위치로 CSS를 적용하는 방법: 자식 selector */
-/* html, css의 >는 경로의 \와 동일합니다. */
+/* child selector(with >) */
 ul > li {
     color: orangered;
 }
 
-/* 형제 selector 중 바로 뒤에 인접한 형제를 바꿔줍니다. */
+/* change just behind brother selector. */
 p + li {
     color: plum;
 }
 
-/* 형제 selector 전체를 바꿔줍니다. */
+/* change all brother selector. */
 p ~ li {
     color: aqua;
 }
@@ -47,12 +42,12 @@ div {
     color: goldenrod;
 }
 
-/* 후손 셀렉터 */
+/* descendants selector */
 div p {
     color: crimson;
 }
 
-/* 자식 셀렉터 */
+/* child selector */
 div > p {
     color: crimson;
 }

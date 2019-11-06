@@ -3,13 +3,13 @@ div {
     width: 100px;
 }
 
-/* position은 적지않으면 static이 기본입니다. */
+/* basic position is static. */
 .gold {
     background-color: gold;
     position: static;
 }
 
-/* relative는 static(처음 위치)을 기준으로 움직입니다. */
+/* relative moves on the basis of static. */
 .silver {
     background-color: silver;
     position: relative;
@@ -17,8 +17,7 @@ div {
     bottom: 50px;
 }
 
-/* absolute는 클래스의 부모 혹은 그 조상 요소를 기준으로 움직입니다. */
-/* 하지만 결과를 보면 css is AWESOME!!!임을 알 수 있습니다 ^^7 */
+/* absolute moves on the basis of parents. */
 .green {
     background-color: greenyellow;
     position: absolute;
@@ -26,7 +25,7 @@ div {
     bottom: 0px;
 }
 
-/* 부모 요소에게 relative를 넣으면 자식 요소가 그를 기준으로 움직입니다. */
+/* when wirte relative in parent, child moves on th basis of it. */
 .parent {
     height: 200px;
     width: 100%;
@@ -41,7 +40,7 @@ div {
     bottom: 100px;
 }
 
-/* fixed는 브라우저의 뷰 포인트를 기준으로 움직입니다. */
+/* fixed moves on the basis of view point of browser. */
 .yellow {
     background-color: yellowgreen;
     position: fixed;

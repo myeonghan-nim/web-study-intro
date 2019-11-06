@@ -13,7 +13,7 @@
 
 #red {
     background-color: red;
-    /* 큰 사각형 내부의 우측 하단 모서리에 빨간 사각형 위치시키기 */
+    /* location is right bottom edge inside large rectangle */
     position: absolute;
     right: 0px;
     bottom: 0px;
@@ -21,7 +21,7 @@
 
 #gold {
     background-color: gold;
-    /* 브라우저의 하단에서 50px, 우측에서 50px 위치에 고정하기 */
+    /* location is fixed in up 50px in bottom, left 50px in right of browser */
     position: fixed;
     right: 50px;
     bottom: 50px;
@@ -29,7 +29,7 @@
 
 #green {
     background-color: green;
-    /* absolute 이용해서 큰 사각형의 가운데 위치시키기 */
+    /* location is right center large rectangle with absolute */
     position: absolute;
     left: 200px;
     top: 200px;
@@ -37,7 +37,7 @@
 
 #blue {
     background-color: blue;
-    /* relative를 사용해서 큰 사각형 좌측 상단 모서리에서 100px, 100px 띄우기 */
+    /* location is left top edge flowed 100px inside large rectangle with relative */
     position: relative;
     left: 100px;
     top: 100px;
@@ -45,7 +45,7 @@
 
 #pink {
     background-color: pink;
-    /* 큰 사각형 내부의 좌측 상단 모서리로 옮기기*/
+    /* location is left top edge inside large rectangle */
     position: absolute;
     left: 0px;
     top: 0px;

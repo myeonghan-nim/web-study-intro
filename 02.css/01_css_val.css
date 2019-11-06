@@ -1,6 +1,6 @@
-/* 동일 태그가 많은 경우 id를 통해서 이를 구별할 수 있습니다. */
-/* #id로 작성하면 됩니다. */
-/* px 단위는 절대 단위로 구현됩니다. */
+/* there are many tags, distinguish tags with id. */
+
+/* px realize absolute unit. */
 #hi {
     color: goldenrod;
     font-size: 35px;
@@ -11,19 +11,19 @@
     font-size: 250%;
 }
 
-/* em 단위는 최초 글자의 몇 배인지를 결정합니다. */
+/* em realize multiple unit of parents. */
 #lunch {
     color: orangered;
     font-size: 5em;
 }
 
-/* rem 단위는 최상위 root html의 배수로써 글자 크기를 결정합니다. */
+/* rem realize multiple unit of root. */
 #snack {
     color: aquamarine;
     font-size: 5rem;
 }
 
-/* viewport 단위는 디바이스 화면 크기를 기준으로 상대 크기를 결정합니다. */
+/* viewport realize multiple unit of screen size of device. */
 #menu {
     background-color: darkcyan;
     color: springgreen;
@@ -31,15 +31,11 @@
     height: 20vh;
 }
 
-/* div 태그가 부모 */
 div {
     color: plum;
     width: 50%;
 }
 
-/* h1 태그가 자식으로 부모 태그를 상속받아 0.5*0.5=0.25로 결정됩니다. */
 h1 {
     width: 50%;
 }
-
-/* html&css의 색상은 hex(뒤에 2자를 더 붙이면 투명도 추가), rgb, rgba(rgb+투명도)로 사용할 수 있습니다. */
