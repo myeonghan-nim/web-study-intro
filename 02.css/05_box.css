@@ -1,66 +1,54 @@
 .big-box {
-    position: relative;
-    margin: 100px auto 500px;
-    border: 5px solid black;
-    width: 500px;
-    height: 500px;
+  position: relative;
+  margin: 100px auto 500px;
+  border: 5px solid black;
+  width: 500px;
+  height: 500px;
 }
-
 .small-box {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 #red {
-    background-color: red;
-    /* location is right bottom edge inside large rectangle */
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
+  background-color: red;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
 }
-
 #gold {
-    background-color: gold;
-    /* location is fixed in up 50px in bottom, left 50px in right of browser */
-    position: fixed;
-    right: 50px;
-    bottom: 50px;
+  background-color: gold;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
 }
-
 #green {
-    background-color: green;
-    /* location is right center large rectangle with absolute */
-    position: absolute;
-    left: 200px;
-    top: 200px;
+  background-color: green;
+  position: absolute;
+  left: 200px;
+  top: 200px;
 }
-
 #blue {
-    background-color: blue;
-    /* location is left top edge flowed 100px inside large rectangle with relative */
-    position: relative;
-    left: 100px;
-    top: 100px;
+  background-color: blue;
+  position: relative;
+  left: 100px;
+  top: 100px;
 }
-
 #pink {
-    background-color: pink;
-    /* location is left top edge inside large rectangle */
-    position: absolute;
-    left: 0px;
-    top: 0px;
+  background-color: pink;
+  position: absolute;
+  left: 0px;
+  top: 0px;
 }
-
 #purple {
-    background-color: purple;
-    position: absolute;
-    right: 100px;
-    bottom: 100px;
+  background-color: purple;
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
 }
-
 #orange {
-    background-color: orange;
-    position: absolute;
-    left: 200px;
-    top: 0px;
+  background-color: orange;
+  position: absolute;
+  left: 200px;
+  top: 0px;
 }

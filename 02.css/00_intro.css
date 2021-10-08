@@ -1,9 +1,4 @@
-/* CSS */
-
-/* CSS code is written tag name, property, value order. */
-/* value has keyword, unit of size, color etc. */
-/* developer tools in web viewer can check situation of CSS in tag. */
 p {
-    color: greenyellow;
-    font-size: 25px;
+  color: greenyellow;
+  font-size: 25px;
 }

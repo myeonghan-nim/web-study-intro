@@ -1,0 +1,30 @@
+div {
+  color: plum;
+  width: 50%;
+}
+h1 {
+  width: 50%;
+}
+
+#hi {
+  color: goldenrod;
+  font-size: 35px;
+}
+#n2mu {
+  color: turquoise;
+  font-size: 250%;
+}
+#lunch {
+  color: orangered;
+  font-size: 5em;
+}
+#snack {
+  color: aquamarine;
+  font-size: 5rem;
+}
+#menu {
+  background-color: darkcyan;
+  color: springgreen;
+  width: 20vw;
+  height: 20vh;
+}

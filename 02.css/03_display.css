@@ -1,40 +1,28 @@
-/* block of display */
-/* basic margin is margin-right: auto. */
 div {
-    background-color: cornsilk;
-    margin-left: auto;
-    margin-right: auto;
+  background-color: cornsilk;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .half {
-    width: 50%;
+  width: 50%;
 }
-
 .b {
-    display: block;
-    background-color: violet;
+  display: block;
+  background-color: violet;
 }
-
-/* inline of display */
 .i {
-    display: inline;
-    background-color: mediumaquamarine;
+  display: inline;
+  background-color: mediumaquamarine;
 }
-
-/* inline-block of display */
 .bi {
-    /* None can make invisible of target. */
-    display: inline-block;
-    margin-top: 10px;
+  display: inline-block;
+  margin-top: 10px;
 }
-
-/* display None delete data, hidden make invisible data. */
 .bg {
-    background-image: url(https://tumblbug-pci.imgix.net/e785822460432127b6dc38142c0c090600e77ebd/2d8ede4f1142262028afaeae2d139a4a51f8d9a0/0162da9dd277e8b4cfc29301880325954685068c/2c32761c-a423-4c6d-a925-42f0f5c0dbf9.jpg?ixlib=rb-1.1.0&w=1240&h=930&auto=format%2Ccompress&lossless=true&fit=crop&s=9a74139c45961234b70319992d18071e);
+  background-image: url(https://tumblbug-pci.imgix.net/e785822460432127b6dc38142c0c090600e77ebd/2d8ede4f1142262028afaeae2d139a4a51f8d9a0/0162da9dd277e8b4cfc29301880325954685068c/2c32761c-a423-4c6d-a925-42f0f5c0dbf9.jpg?ixlib=rb-1.1.0&w=1240&h=930&auto=format%2Ccompress&lossless=true&fit=crop&s=9a74139c45961234b70319992d18071e);
 }
-
-/* font can get on Google fonts. */
 .text {
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 1.5rem;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 1.5rem;
 }

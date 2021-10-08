@@ -1,49 +1,39 @@
 div {
-    height: 100px;
-    width: 100px;
+  height: 100px;
+  width: 100px;
 }
 
-/* basic position is static. */
 .gold {
-    background-color: gold;
-    position: static;
+  background-color: gold;
+  position: static;
 }
-
-/* relative moves on the basis of static. */
 .silver {
-    background-color: silver;
-    position: relative;
-    left: 50px;
-    bottom: 50px;
+  background-color: silver;
+  position: relative;
+  left: 50px;
+  bottom: 50px;
 }
-
-/* absolute moves on the basis of parents. */
 .green {
-    background-color: greenyellow;
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
+  background-color: greenyellow;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
 }
-
-/* when wirte relative in parent, child moves on th basis of it. */
-.parent {
-    height: 200px;
-    width: 100%;
-    background-color: paleturquoise;
-    position: relative;
-}
-
-.child {
-    background-color: palevioletred;
-    position: absolute;
-    left: 100px;
-    bottom: 100px;
-}
-
-/* fixed moves on the basis of view point of browser. */
 .yellow {
-    background-color: yellowgreen;
-    position: fixed;
-    right: 0px;
-    top: 0px;
+  background-color: yellowgreen;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+}
+.parent {
+  height: 200px;
+  width: 100%;
+  background-color: paleturquoise;
+  position: relative;
+}
+.child {
+  background-color: palevioletred;
+  position: absolute;
+  left: 100px;
+  bottom: 100px;
 }

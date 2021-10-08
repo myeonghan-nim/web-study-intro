@@ -1,42 +1,31 @@
 div {
-    width: 100px;
-    height: 100px;
-    background-color: hotpink;
+  width: 100px;
+  height: 100px;
+  background-color: hotpink;
 }
 
-/* class */
 .margin {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
-
 .padding {
-    padding-top: 20px;
-    padding-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-
 .border {
-    border: 5px lightblue dotted;
+  border: 5px lightblue dotted;
 }
-
 .margin1 {
-    /* all direction */
-    margin: 5px;
+  margin: 5px;
 }
-
 .margin2 {
-    /* top-bottom, left-right */
-    margin: 5px 10px;
+  margin: 5px 10px;
 }
-
 .margin3 {
-    /* top, left-right, bottom */
-    margin: 5px 10px 15px;
+  margin: 5px 10px 15px;
 }
-
 .margin4 {
-    /* top, right, bottom, left */
-    margin: 5px 10px 15px 20px;
+  margin: 5px 10px 15px 20px;
 }

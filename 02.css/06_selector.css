@@ -1,53 +1,35 @@
-/* * means all element */
-
-/* tags has its own priority.(id > class > tag) */
-
-/* tag selector */
 h1 {
-    /* !important is in element, it has the first priority. */
-    color: yellowgreen !important;
+  color: yellowgreen !important;
 }
 
-/* groupping */
-h1, h2 {
-    background-color: turquoise;
+h1,
+h2 {
+  background-color: turquoise;
 }
-
-/* class */
-.class-selector {
-    color: silver;
-}
-
-/* id */
-#id-selector{
-    color: gold;
-}
-
-/* child selector(with >) */
-ul > li {
-    color: orangered;
-}
-
-/* change just behind brother selector. */
-p + li {
-    color: plum;
-}
-
-/* change all brother selector. */
-p ~ li {
-    color: aqua;
-}
-
 div {
-    color: goldenrod;
+  color: goldenrod;
 }
-
-/* descendants selector */
 div p {
-    color: crimson;
+  color: crimson;
 }
 
-/* child selector */
 div > p {
-    color: crimson;
+  color: crimson;
+}
+ul > li {
+  color: orangered;
+}
+p + li {
+  color: plum;
+}
+p ~ li {
+  color: aqua;
+}
+
+.class-selector {
+  color: silver;
+}
+
+#id-selector {
+  color: gold;
 }
