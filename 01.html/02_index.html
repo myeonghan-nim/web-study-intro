@@ -1,154 +1,140 @@
 <!DOCTYPE html>
-
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>index</title>
+  </head>
+  <body>
+    <h1>What we will study</h1>
+    <a href="01_intro.html">Reference Site</a>
+    <a href="#Python">Python</a>
+    <a href="#HTML-CSS">HTML-CSS</a>
 
-<head>
+    <hr />
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-  <title>Document</title>
-
-</head>
-
-<body>
-
-  <h1>Study programming</h1>
-  <!-- When properties print a row, it means inline. -->
-  <a href="#python">python</a>
-  <a href="#web">web</a>
-
-  <a href="01_intro.html">Reference Site</a>
-  <hr>
-
-  <h2 id="python">
     <a href="https://docs.python.org/ko/3/tutorial/index.html" target="_blank">
-      <!-- img route can acess web site and local folder. -->
-      <img src="images/python-logo.png" alt="python" height="50px" witdh="50px">
+      <img
+        src="images/python-logo.png"
+        alt="python"
+        height="50px"
+        witdh="50px"
+      />
     </a>
-  </h2>
-  <hr>
 
-  <h3>Number Type</h3>
+    <hr />
 
-  <p>Number types in python includes below.</p>
+    <h3>Number Type</h3>
+    <p>Python number types includes below.</p>
 
-  <ol>
-    <li>int</li>
-    <li>float</li>
-    <li>complex</li>
-    <li><del>str</del></li>
-  </ol>
+    <ol>
+      <li>int</li>
+      <li>float</li>
+      <li>complex</li>
+      <li><del>str</del></li>
+    </ol>
 
-  <h3>Sequence</h3>
+    <h3>Sequence</h3>
+    <p>Python Sequence includes below.</p>
+    <p><b>Sequence can run in 'for'!</b></p>
 
-  <p>Sequence in python includes below.</p>
-  <p><b>Sequence can run 'for'!</b></p>
+    <ol>
+      <li>str</li>
+      <li>list</li>
+      <li>tuple</li>
+      <li>range</li>
+    </ol>
 
-  <ol>
-    <li>str</li>
-    <li>list</li>
-    <li>tuple</li>
-    <li>range</li>
-  </ol>
-  <hr>
+    <hr />
 
-  <h2 id="web">
-    <!-- basic running of a tag when click is _self. -->
     <a href="https://developer.mozilla.org/ko/" target="_self">
-      <img src="images/html5.jpg" alt="web" height="50px" width="60px">
+      <img src="images/html5-logo.jpg" alt="web" height="50px" width="60px" />
     </a>
-  </h2>
 
-  <h3>Basic</h3>
+    <hr />
 
-  <ul>
-    <li style="list-style: circle">HTML</li>
-    <li style="list-style: circle">CSS</li>
-  </ul>
+    <h3>HTML-CSS</h3>
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/_59lUc31Cic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  
-  <table border="1">
+    <ul>
+      <li style="list-style: circle">HTML</li>
+      <li style="list-style: circle">CSS</li>
+    </ul>
 
-    <thead>
+    <hr />
 
-      <th></th>
-      <th>Mon</th>
-      <th>Tue</th>
-      <th>Wed</th>
+    <iframe
+      width="1280"
+      height="720"
+      src="https://www.youtube.com/embed/eCokDgCW5gQ"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
 
-    </thead>
+    <hr />
 
-    <tbody>
+    <h1>Table</h1>
 
-      <tr>
-        <td>Course A</td>
-        <!-- span moves table data. -->
-        <td rowspan="2">Noddle</td>
-        <td colspan="2">Sushi</td>
-      </tr>
+    <table border="1">
+      <thead>
+        <th></th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Course A</td>
+          <td rowspan="2">Noddle</td>
+          <td colspan="2">Sushi</td>
+        </tr>
+        <tr>
+          <td>Course B</td>
+          <td>Kimchi Stew</td>
+          <td>Samgyetang</td>
+        </tr>
+      </tbody>
+    </table>
 
-      <tr>
-        <td>Course B</td>
-        <td>Kimchi Stew</td>
-        <td>Samgyetang</td>
-      </tr>
-
-    </tbody>
-
-  </table>
-
-  <table>
-
-    <thead>
-
-      <th>TIME</th>
-      <th>INDOOR</th>
-      <th colspan="2">OUTDOOR</th>
-
-    </thead>
-
-    <tbody>
-
-      <tr>
-        <!-- orders of td syle are border, info of line, color. -->
-        <td style="border: 1px solid black"></td>
-        <td style="border: 1px solid black">Small theater</td>
-        <td style="border: 1px solid black">Grass yard</td>
-        <td style="border: 1px solid black">Performance hall</td>
-      </tr>
-
-      <tr>
-        <td style="border: 1px solid black">10:00</td>
-        <td rowspan="2" style="border: 1px solid black">Hello??</td>
-        <td style="border: 1px solid black"></td>
-        <td style="border: 1px solid black">10CM</td>
-      </tr>
-
-      <tr>
-        <td style="border: 1px solid black">13:00</td>
-        <td rowspan="2" style="border: 1px solid black">Sun Woo Jung Ah</td>
-        <td rowspan="2" style="border: 1px solid black">Sesame and cotton candy</td>
-      </tr>
-
-      <tr>
-        <td style="border: 1px solid black">15:00</td>
-        <td style="border: 1px solid black"></td>
-      </tr>
-
-      <tr>
-        <td style="border: 1px solid black">17:00</td>
-        <td style="border: 1px solid black">Cruch</td>
-        <td style="border: 1px solid black"></td>
-        <td style="border: 1px solid black">Paul Kim</td>
-      </tr>
-
-    </tbody>
-
-  </table>
-
-</body>
-
+    <table>
+      <thead>
+        <th>TIME</th>
+        <th>INDOOR</th>
+        <th colspan="2">OUTDOOR</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="border: 1px solid black"></td>
+          <td style="border: 1px solid black">Small theater</td>
+          <td style="border: 1px solid black">Grass yard</td>
+          <td style="border: 1px solid black">Performance hall</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black">10:00</td>
+          <td rowspan="2" style="border: 1px solid black">Hello??</td>
+          <td style="border: 1px solid black"></td>
+          <td style="border: 1px solid black">10CM</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black">13:00</td>
+          <td rowspan="2" style="border: 1px solid black">Sun Woo Jung Ah</td>
+          <td rowspan="2" style="border: 1px solid black">
+            Sesame and cotton candy
+          </td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black">15:00</td>
+          <td style="border: 1px solid black"></td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black">17:00</td>
+          <td style="border: 1px solid black">Cruch</td>
+          <td style="border: 1px solid black"></td>
+          <td style="border: 1px solid black">Paul Kim</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>

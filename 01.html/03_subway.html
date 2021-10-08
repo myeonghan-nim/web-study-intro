@@ -1,68 +1,81 @@
 <!DOCTYPE html>
-
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Subway</title>
+  </head>
+  <body>
+    <h1>Subway Order</h1>
+    <p>Write down order sheet below.</p>
 
-<head>
+    <hr />
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <form action="">
+      <div>
+        <label for="name">Name: </label>
+        <input id="name" type="text" name="name" placeholder="Enter name" />
+      </div>
+      <div>
+        <label for="date">Date: </label>
+        <input id="date" type="date" name="date" />
+      </div>
 
-  <title>Document</title>
+      <hr />
 
-</head>
+      <h3>1. Sandwitch</h3>
+      <input id="main1" type="radio" name="main" value="1" /><label for="main1"
+        >Egg Mayo</label
+      >
+      <input id="main2" type="radio" name="main" value="2" /><label for="main2"
+        >Italian BMT</label
+      >
+      <input id="main3" type="radio" name="main" value="3" /><label for="main3"
+        >Turkey bacon avocado</label
+      >
 
-<body>
+      <hr />
 
-  <h1>Project for order in Subway!</h1>
+      <h3>2. Size</h3>
+      <input type="size" value="15" min="15" max="30" step="15" />
 
-  <p>Write down order sheet.</p>
+      <hr />
 
-  <form action="">
+      <h3>3. Bread</h3>
+      <select name="bread" id="bread">
+        <option value="1">Honey Oat</option>
+        <option value="2" disabled>Flat Bread</option>
+        <option value="3">Hati Italian</option>
+      </select>
 
-    <div>
-      <!-- placeholder sets basic data without inputted data. -->
-      <label for="name">Name : </label>
-      <input id="name" type="text" name="name" placeholder="Enter name">
-    </div>
+      <hr />
 
-    <div>
-      <label for="date">Date : </label>
-      <input id="date" type="date" name="date" value="2019-11-06">
-    </div>
+      <h3>4. Vegetable & Source</h3>
+      <input id="tomato" type="checkbox" name="tomato" value="True" /><label
+        for="tomato"
+        >Tomato</label
+      >
+      <input id="cucumber" type="checkbox" name="cucumber" value="True" /><label
+        for="cucumber"
+        >Cucumber</label
+      >
+      <input id="halapino" type="checkbox" name="halapino" value="True" /><label
+        for="halapino"
+        >Halapino</label
+      >
+      <input id="hotchili" type="checkbox" name="hotchili" value="True" /><label
+        for="hotchili"
+        >Hot Chili</label
+      >
+      <input id="barbeque" type="checkbox" name="barbeque" value="True" /><label
+        for="barbeque"
+        >Barbeque</label
+      >
 
-    <!-- if name of label is same as id of input, receive input automatically when click name. -->
-    <h3>1. Select sandwitch</h3>
-    <input id="main1" type="radio" name="main" value="1"><label for="main1">Egg Mayo</label>
-    <input id="main2" type="radio" name="main" value="2"><label for="main2">Italian BMT</label>
-    <input id="main3" type="radio" name="main" value="3"><label for="main3">Turkey bacon avocado</label>
-    <hr>
+      <hr />
 
-    <!-- if setting step, select values on a certain scale. -->
-    <h3>2. Select size</h3>
-    <input type="size" value="15" min="15" max="30" step="15">
-    <hr>
-
-    <!-- dropdown option can check with select tag. -->
-    <h3>3. Bread</h3>
-    <select name="bread" id="bread">
-      <option value="1">Honey Oat</option>
-      <option value="2" disabled>Flat Bread</option>
-      <option value="3">Hati Italian</option>
-    </select>
-    <hr>
-
-    <h3>4. Vegetables/Source</h3>
-    <input id="tomato" type="checkbox" name="tomato" value="True"><label for="tomato">Tomato</label>
-    <input id="cucumber" type="checkbox" name="cucumber" value="True"><label for="cucumber">Cucumber</label>
-    <input id="halapino" type="checkbox" name="halapino" value="True"><label for="halapino">Halapino</label>
-    <input id="hotchili" type="checkbox" name="hotchili" value="True"><label for="hotchili">Hot Chili</label>
-    <input id="barbeque" type="checkbox" name="barbeque" value="True"><label for="barbeque">Barbeque</label>
-
-    <input type="submit">
-
-  </form>
-
-</body>
-
+      <input type="submit" />
+    </form>
+  </body>
 </html>
