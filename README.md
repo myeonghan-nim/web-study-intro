@@ -1,4 +1,4 @@
-# Study: HTML-CSS
+# Study: HTML&CSS
 
 ```html
 <html>
