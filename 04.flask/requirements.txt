@@ -3,4 +3,4 @@ bs4==0.0.1
 Flask==2.3.2
 pipdeptree==2.1.0
 requests==2.31.0
-setuptools==65.5.1
+setuptools==70.0.0
